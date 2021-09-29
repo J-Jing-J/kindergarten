@@ -1,0 +1,1 @@
+<view><block wx:for="{{iconList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="message"><view class="user"><view class="context1"><image class="img" src="{{item.image_src}}" mode></image><text>{{item.goods_id}}</text></view><view class="context2"><text>{{item.navigator_url}}</text></view></view></view></block></view>
